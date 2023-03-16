@@ -1,0 +1,89 @@
+body {
+    background-color:#161616;
+}
+#menu {
+    position:fixed;
+    left:40%;
+    right:50%;
+    top:60%;
+    display:flex;
+    flex:1;
+
+    min-width:350px;
+    min-height:250px;
+    
+    text-align:center;
+    margin:auto;
+    bottom:50%;
+    display:flex;
+    display:grid;
+}
+
+#play-button{
+    margin-bottom:10px;
+    border-radius:10px;
+    font-size:20px;
+}
+#play-button:hover {
+    background-color: #bcbcbc;
+}
+#play-button:active {
+    background-color: #949494;
+}
+
+#how-button{
+    margin-bottom:10px;
+    border-radius:10px;
+    font-size:20px;
+}
+#how-button:hover {
+    background-color: #bcbcbc;
+}
+#how-button:active {
+    background-color: #949494;
+}
+
+#settings-button{
+    margin-bottom:10px;
+    border-radius:10px;
+    font-size:20px;
+}
+#settings-button:hover {
+    background-color: #bcbcbc;
+}
+#settings-button:active {
+    background-color: #949494;
+}
+
+#username {
+    position: absolute;
+    bottom:5%;
+}
+
+#user-input {
+    border-radius:5px;
+    border-style: none;
+    height:30px;
+    width:250px;
+}
+
+#user-set {
+    border-radius:5px;
+    height:30px;
+    width:50px;
+    font-size:16px;
+}
+
+#user-set:hover {
+    background-color:#b7b7b7;
+}
+
+#user-set:active {
+    background-color:#8e8e8e;
+}
+
+.big-icon {
+    position:relative;
+    left:42%;
+    right:50%;
+}
