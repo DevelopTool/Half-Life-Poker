@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap');
+
+body {
+    background-color: #161616;
+    overflow:hidden;
+    font-family: Kanit, Arial, Helvatica;
+}
+
+#main-game {
+    border-style:double;
+    border-color:#dcdcdc;
+    margin-left:20%;
+    margin-right:5%;
+    padding-top:48%;
+    position:sticky;
+}
+
+#bot-game {
+    border-style:double;
+    border-color:#dcdcdc;
+    position:fixed;
+    bottom:539px;
+    padding-right:1133px;
+    height:200px;
+
+}
+#player-game {
+    border-style:double;
+    border-color:#dcdcdc;
+    position:fixed;
+    top:486px;
+    padding-right:1133px;
+    height:250px;
+
+}
+
+#player-cards {
+    list-style:none;
+    justify-items: stretch;
+    text-align: justify;
+    position:fixed;
+    bottom:70px;
+    right:550px;
+}
+
+li {
+    color:#fff;
+    font-size:56px;
+    display: inline-block;
+}
+
+#bot-cards {
+    list-style:none;
+    justify-items: stretch;
+    text-align: justify;
+    position:fixed;
+    top:70px;
+    right:550px;
+    position:fixed;
+}
+
+
+#start-btn {
+    bottom:50%;
+    left:125px;
+    border-radius:5px;
+    height:30px;
+    width:50px;
+    font-size:16px;
+    position:absolute;
+    font-family: Kanit, Arial, Helvatica;
+}
+
+#start-btn:hover {
+    background-color:#b7b7b7;
+}
+
+#start-btn:active {
+    background-color:#8e8e8e;
+}
+
+#hold-switch {
+    border-radius:5px;
+    font-size:16px;
+    position:relative;
+    bottom:245px;
+    left:46%;
+    height:50px;
+    width:100px;
+    font-family: Kanit, Arial, Helvatica;
+    background-color:#fff;
+}
+
+#hold-switch:hover {
+    
+    background-color:#939393;
+}
+
+#hold-switch:active {
+    background-color:#3c3c3c;
+}
+
+.list {
+    position:fixed;
+    left:125px;
+    bottom:50px;
+    width:50px;
+}
+
+.scores {
+    
+        position:fixed;
+        left:25px;
+        bottom:490px;
+        width:250px;
+}
+
+.player-cards {
+    position:relative;
+    bottom:-60px;
+    left:207px;
+    width:120px;
+}
+
+.bot-cards {
+    position:relative;
+    top:-60px;
+    left:207px;
+    width:120px;
+}
